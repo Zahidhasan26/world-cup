@@ -87,7 +87,8 @@ h3 {
     /* transform: scale(1.2); */
   }
   .blog-gallery {
-    margin-top: 60px;
+    margin-top: 180px;
+    margin-bottom: 120px;
   }
 .blog-section {
     display: grid;
@@ -133,4 +134,24 @@ h3 {
 .icons {
     font-weight: 300;
     margin-right: 30px;
+}
+.footer {
+    background-color: #171B21;
+    text-align: center;
+   
+}
+hr {
+    height: 1px;
+        background-color: #ffffff1e;
+        border: none;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-item {
+    font-size: 16px;
+    color: #B9B9B9;
+    /* float: left; */
+   
 }
