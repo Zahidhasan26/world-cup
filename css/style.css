@@ -32,14 +32,45 @@ h2 {
 .button {
     text-decoration: none;
      padding: 16px 24px;
-    border-radius: 5px;
+    border-radius: 4px;
     font-size: 16px;
     color: white;
     background-color: #00BD56;
+    display: inline-block;
   }
-  .banner-image {
+  .button-regular{
+    display: block;
+    text-decoration: none;
+    padding: 16px 24px;
+    border-radius: 4px;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+  .button-active{
+    display: block;
+    text-decoration: none;
+    padding: 16px 24px;
+    border-radius: 4px;
+    background-color: #00BD56;
+  }
+.banner-image {
     /* transform: scale(1.2); */
   }
+  .blog-gallery {
+    margin-top: 60px;
+  }
+.blog-section {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 30px;
+}
+.button-group {
+    background-color: #171B21;
+    padding: 20px;
+    border-radius: 10px;
+    /* display: block; */
+    
+}
 .item-boxes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
